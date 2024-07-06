@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+}
+
+.container {
+  width: 800px;
+  max-width: 95%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+
+p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+}
+
+.contact-info, .skills-section, .education, .languages {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.skills ul, .certifications ul, .languages ul, .education ul {
+  padding-left: 20px;
+}
